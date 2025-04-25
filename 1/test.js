@@ -1,3 +1,6 @@
-const abhinav="1"
-const raaa="2"
-console.table([abhinav,raaa])
+// const cap="hyderabad"
+// const stat="Telangana"
+
+// console.log(`${cap} is capital of ${stat}`);
+ const fruit = new  String("Apple")
+ console.log(fruit)
