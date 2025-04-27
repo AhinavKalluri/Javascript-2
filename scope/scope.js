@@ -65,8 +65,18 @@
 
                 //Arrays
 
-   const myArray = [2,3,4,5,6,67,8,]
+//    const myArray = [2,3,4,5,6,67,8,]
    
-   myArray.forEach(()=>{
-    console.log(myArray)
-   })
+//    myArray.forEach(()=>{
+//     console.log(myArray)
+//    })
+// immediatly invoked function
+// (function ok(){
+//     console.log(`ok executed`)
+// })  () ; //semicolon sholud be used to use iif next
+
+// //to run iiif with arrow funtion varibale should be used in console.log
+
+// ((name)=>{
+//     console.log(`name ${name}`)
+// })("abhinav");
