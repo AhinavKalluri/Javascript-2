@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+     display: inline-block;
+}
+#red{
+    background: red;
+}
+#blue{
+    background: blue;
+}
+#purple{
+    background: purple;
+}
+#grey{
+    background: grey;
+}

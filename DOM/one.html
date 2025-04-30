@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>DOM LEARNING</title>
+    <title>DOM | LEARNING</title>
     <style>
         .body-dom{
             background-color: black;
@@ -11,9 +11,50 @@
     </style>
 </head>
 <body class="body-dom">
-    <div>
-        <h1 class="txt">THIS IS INTRO TO DOM</h1>
-    </div>
+    <!-- <div>
+        <h1 class="txt">Weclome to  DOM Practice</h1>
+        <di class="parent">
+            <div class="day">monday</div>
+            <div class="day">Tuesday</div>
+            <div class="day">wednesday</div>
+            <div class="day">thursday</div>
+        </di>
+    </div> -->
+
+
+
+
+
     
 </body>
+<script>
+//     const parent = document.querySelector('.parent')
+//     // console.log(parent);
+//     // console.log(parent.children);
+//     // console.log(parent.children[0].innerHTML);
+
+// // for (let i = 0; i < parent.children.length; i++) {
+// //     const element =parent.children[i].innerHTML;
+// //     console.log(element)
+// // }
+// parent.children[1].style.color='orange'
+
+
+
+// <!-- //creating element using DOM -->
+
+const div = document.createElement('div')
+div.className='added'
+div.id='adddiv'
+div.setAttribute('title','fortitle')
+div.style.backgroundColor='green'
+div.style.Color='white'
+div.style.borderRadius='15px'
+div.innerText='chaii piyoo'
+
+
+
+
+document.body.appendChild(div)    
+</script>
 </html>
