@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV</title>
+</head>
+<body style="background-color: #414141; color: aliceblue;">
+    <ul>
+        <li><img width="100px" id="first" src="https://i.pinimg.com/736x/b9/a6/70/b9a67049bf4fd0db1afcb733c97c8492.jpg" alt=""></li>
+        <li><img width="100px" id="second" src="https://i.pinimg.com/736x/3c/87/0c/3c870c987fc64a559fc254505084b88b.jpg" alt=""></li>
+        <li><img width="100px" id="third" src="https://i.pinimg.com/736x/2e/14/d9/2e14d9454e07214edc86c1b11174f3ba.jpg" alt=""></li>
+        <li><img width="100px" id="fourth" src="https://i.pinimg.com/736x/21/cf/d8/21cfd864d27a30e823729bfe62571f4d.jpg" alt=""></li>
+        
+    </ul>
+
+    <script>
+        // document.getElementById('first').onclick=function(){
+        //     alert('first one')                                                                           //first method
+        // }
+        document.getElementById('first').addEventListener('click',function(e){
+            alert(e)
+        })
+
+    </script>
+</body>
+</html>

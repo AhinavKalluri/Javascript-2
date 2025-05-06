@@ -1,0 +1,9 @@
+.clock{
+    color: black;
+    font-size: large;
+    text-align: center;
+    background-color: darkgoldenrod;
+    padding: auto;
+    border-radius: 10px;
+
+}
