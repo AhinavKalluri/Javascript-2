@@ -12,7 +12,7 @@ let intervalID;
 
 const starChangingColor = function () {
     // Prevent multiple intervals
-        intervalID = setInterval(changeBGColor, 5  00);
+        intervalID = setInterval(changeBGColor, 1000);
     
 
     function changeBGColor() {
