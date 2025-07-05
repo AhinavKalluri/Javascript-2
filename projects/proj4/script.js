@@ -1,3 +1,6 @@
+
+
+
 const randomColor = function () {
     const hex = '0123456789ABCDEF';
     let color = '#';
@@ -12,8 +15,9 @@ let intervalID;
 
 const starChangingColor = function () {
     // Prevent multiple intervals
+    if(!intervalID){
         intervalID = setInterval(changeBGColor, 1000);
-    
+    }
 
     function changeBGColor() {
         document.body.style.backgroundColor = randomColor();
